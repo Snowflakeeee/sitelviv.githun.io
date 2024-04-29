@@ -1,0 +1,239 @@
+/* NENU */
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+.top-menu {
+  position: relative;
+  background: rgba(254, 192, 203);
+
+}
+.menu-main {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+.menu-main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.left-item {
+    float: left;
+}
+.right-item {
+    float: right;
+}
+
+
+
+.menu-left {
+    width: 50%;
+    float: left;
+}
+.menu-right {
+    width: 50%;
+    float: right;
+}
+
+
+
+
+.navbar-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.menu-main a {
+  text-decoration: none;
+  display: block;
+  line-height: 80px;
+  padding: 0 180px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  color: black;
+  transition: .3s linear;
+}
+.menu-main a:hover {background: rgba(120, 54, 54, 1);}
+
+@media (max-width: 830px) {
+.menu-main {
+  padding-top: 90px;
+  text-align: center;
+}
+.navbar-logo {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+}
+.menu-main li {
+  float: none;
+  display: inline-block;
+}
+.menu-main a {
+  line-height: normal;
+  padding: 20px 15px;
+  font-size: 16px;
+}
+}
+@media (max-width: 630px) {
+.menu-main li {display: block;}
+}
+
+
+/* teg */
+h1 {
+    color: black;
+    font-family: arial;
+    font-size: 30px;
+    text-shadow: 4px 4px 5px red;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color: black;
+    font-family: cursive;
+    font-size: 20px;
+}
+h4 {
+    color: black;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-family: arial;
+    font-size: 25px;
+}
+
+ul {
+    color: black;
+    font-family: arial;
+    font-size: 25px;
+}
+
+body {
+    background-color: #FAD5E7;
+}
+
+.informer {
+    display:flex;
+    justify-content:center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.time {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+.maps {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* footers */
+footer {
+    background: rgba(254, 192, 203);
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+.name {
+    text-align: center;
+}
+
+.photo {
+    display: flex;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.photo1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.center-img {
+  width: 820px;
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* events */
+.exhibition {
+    background: #EA94BE;
+    text-align: center;
+    border-width: 10px;
+    border-style: dotted;
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+
+/* form */
+.form {
+  border-radius: 55px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form_name{
+    color: red;
+
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 5px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  margin: 2px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+textarea {
+    width:300px;
+    height:150px;
+}
